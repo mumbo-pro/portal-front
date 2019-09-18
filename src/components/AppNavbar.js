@@ -5,8 +5,7 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
+  NavItem,  
   Container
 } from 'reactstrap';
 import { connect } from 'react-redux';

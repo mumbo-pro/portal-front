@@ -12,13 +12,15 @@ import {
   REGISTER_FAIL
 } from './types';
 
+const BASE_URL = process.env.APP_URL || 'http://localhost:6005';
+
 // Check token & load user
 export const loadUser = () => (dispatch, getState) => {
   // User loading
   dispatch({ type: USER_LOADING });
 
   axios
-    .get('/api/auth/user', tokenConfig(getState))
+    .get(BASE_URL+'/api/auth/user', tokenConfig(getState))
     .then(res =>
       dispatch({
         type: USER_LOADED,
@@ -46,7 +48,7 @@ export const register = ({ name, email, password }) => dispatch => {
   const body = JSON.stringify({ name, email, password });
 
   axios
-    .post('/api/users', body, config)
+    .post(BASE_URL+'/api/users', body, config)
     .then(res =>
       dispatch({
         type: REGISTER_SUCCESS,
@@ -76,7 +78,7 @@ export const login = ({ email, password }) => dispatch => {
   const body = JSON.stringify({ email, password });
 
   axios
-    .post('/api/auth', body, config)
+    .post(BASE_URL+'/api/auth', body, config)
     .then(res =>
       dispatch({
         type: LOGIN_SUCCESS,
