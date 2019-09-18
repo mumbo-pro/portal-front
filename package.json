@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "portal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,8 @@
     "reactstrap": "^7.1.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "prop-types": "latest"
   },
   "scripts": {
     "start": "react-scripts start",

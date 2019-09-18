@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import itemReducer from './itemReducer';
+import itemReducer from './jobReducer';
 import errorReducer from './errorReducer';
 import authReducer from './authReducer';
 
