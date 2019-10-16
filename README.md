@@ -10,7 +10,7 @@ A case study project to connect with recruiters, HR managers & people in the sam
 #### ✨Features (Technologies Used)
 
 - Express js
-- React + VueRouter + Redux + ESlint
+- React + ReactRouter + Redux + ESlint
 - Pages with dynamic import and custom layouts
 - Login, register, email verification and password reset
 - Authentication with JWT
