@@ -1,6 +1,7 @@
 {
   "name": "portal",
   "version": "0.1.0",
+  "description": "A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities,",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -31,5 +32,21 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:6005"
+  "proxy": "http://localhost:6005",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumbo-pro/portal-front.git"
+  },
+  "keywords": [
+    "reactjs",
+    "job",
+    "jobsearch",
+    "portal",
+    "frontend"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mumbo-pro/portal-front/issues"
+  },
+  "homepage": "https://github.com/mumbo-pro/portal-front#readme"
 }
