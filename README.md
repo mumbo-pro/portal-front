@@ -1,11 +1,9 @@
-
 # Portal Front
 
 [![Software License][ico-license]](LICENSE.md)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c3afcc8c-78fd-4797-b136-e514847f6abe/deploy-status)](https://app.netlify.com/sites/mumbo/deploys)
 
-
-A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities, 
+A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities,
 
 #### ✨Features (Technologies Used)
 
@@ -16,11 +14,12 @@ A case study project to connect with recruiters, HR managers & people in the sam
 - Authentication with JWT
 - Bootstrap 4 + Font Awesome 5
 
-
 #### 🛸Portal-Engine
+
 The API is organized around REST.
 
 The API is designed to have:
+
 - predictable, resource-oriented URLs
 - to use HTTP response codes to indicate API errors
 - to use built-in HTTP features, like HTTP authentication and HTTP verbs, which can be understood by off-the-shelf HTTP clients.
@@ -39,8 +38,6 @@ A frontend baked with React
 - [ ] User module
 - [ ] Jobs module
 
-
-
 ## 🚀Getting started
 
 Composer and Yarn/NPM are required
@@ -50,6 +47,7 @@ Composer and Yarn/NPM are required
 Via Git, Yarn is preferred but optional.
 
 - Fork repo
+
 ```bash
 git clone https://github.com/mumbo-pro/portal-front.git
 
@@ -64,8 +62,8 @@ yarn install
 cp .env.example .env
 ```
 
-
 - Development
+
 ```
 yarn run serve
 ```
@@ -80,7 +78,6 @@ yarn run build
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-
 ## Testing
 
 ```bash
@@ -90,7 +87,6 @@ $ yarn tun test
 ## Contributing
 
 Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details.
-
 
 ## Security
 
@@ -102,10 +98,8 @@ If you discover any security related issues, please email [hello@alphaolomi.com]
 - [All Contributors][link-contributors]
 
 ## License
+
 The Apache 2 License. Please see [License File](LICENSE) for more information.
 
-
-
 [ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
-
 [link-contributors]: ../../contributors
