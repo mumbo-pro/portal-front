@@ -81,7 +81,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Testing
 
 ```bash
-$ yarn tun test
+$ yarn run test
 ```
 
 ## Contributing
